@@ -141,7 +141,7 @@ def load_unlabeled_data():
         #print(f"Searching for pattern: {file_path}")
         file_path = glob.glob(file_path)
         if file_path:
-            file_paths.append(file_id)
+            file_paths.append(file_path)
         ids.append(row['id'])
     
     volumes = [load_volume(fp) for fp in file_paths]
