@@ -21,7 +21,7 @@ LABELED_DIR = os.path.join(DATA_DIR, "volumes/volumes/labelled")
 UNLABELED_DIR = os.path.join(DATA_DIR, "volumes/volumes/unlabelled")
 LABELED_CSV = os.path.join(DATA_DIR, "labelled.csv")
 UNLABELED_CSV = os.path.join(DATA_DIR, "unlabelled.csv")
-OUTPUT_CSV = "submission.csv"
+OUTPUT_CSV = "/kaggle/working/submission.csv"
 
 # Hyperparameters
 NUM_CLASSES = 15  # 14 species + 1 unknown
